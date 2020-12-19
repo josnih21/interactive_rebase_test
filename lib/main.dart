@@ -20,7 +20,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('This is just a test of git interactive rebase'),
+        child: Container(
+          color: Colors.red,
+          width: 200,
+          height: 200,
+        ),
       ),
     );
   }
